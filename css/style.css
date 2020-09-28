@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    background-color: #3F268C;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+    padding: 2rem;
+    background-color: #2B9DA1;
+    color: wheat;
+    border-radius: 5px;
+    margin: 1rem;
+}
